@@ -1,0 +1,27 @@
+using System;
+namespace program
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+
+        {
+            int a, b;
+            Console.WriteLine("please enter a value");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter b value");
+            b = Convert.ToInt32(Console.ReadLine());
+            
+            if(a>b)
+            {
+                Console.WriteLine("a is greater");
+            }
+            else
+            { 
+                Console.WriteLine("a is not greater");    
+            }
+            Console.ReadLine();
+
+        }
+    }
+}
